@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 	}
 	s.platform     = :ios
 	s.source       = {
-		:http => "https://raw.githubusercontent.com/aga-ct/hdeps/zip/Cocoalumberjack/3.5.3/CocoaLumberjackSwift.framework.zip",
+		:http => "https://raw.githubusercontent.com/aga-ct/hdeps/master/zip/Cocoalumberjack/3.5.3/CocoaLumberjackSwift.framework.zip",
 		:type => "zip"
 	}
 	s.vendored_frameworks = "CocoaLumberjackSwift.framework"
