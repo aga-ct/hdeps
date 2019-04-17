@@ -1,0 +1,27 @@
+Pod::Spec.new do |s|
+	s.name         = "HCocoaLumberjackSwift"
+	s.version      = "3.5.3"
+	s.summary      = "Dependencies for H"
+	s.homepage     = "https://github.com/aga-ct/hdeps"
+	s.author       = {
+		"AGA" => "aga+hdeps@connecthings.com"
+	}
+	s.platform     = :ios
+	s.source       = {
+		:http => "https://raw.githubusercontent.com/aga-ct/hdeps/zip/Cocoalumberjack/3.5.3/CocoaLumberjackSwift.framework.zip",
+		:type => "zip"
+	}
+	s.vendored_frameworks = "CocoaLumberjackSwift.framework"
+	s.ios.deployment_target = '9.0'
+	s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
+	# s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration'
+	# s.dependency 'HerowConnection', '4.6'
+	s.requires_arc = true
+		
+	s.license      = {
+		:type => 'Copyright',
+		:text => <<-LICENSE
+	Copyright 2015-2019, Inc. All rights reserved.
+	LICENSE
+}
+end
