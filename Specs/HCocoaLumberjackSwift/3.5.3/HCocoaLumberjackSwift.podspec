@@ -14,8 +14,6 @@ Pod::Spec.new do |s|
 	s.vendored_frameworks = "CocoaLumberjackSwift.framework"
 	s.ios.deployment_target = '9.0'
 	s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
-	# s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration'
-	# s.dependency 'HerowConnection', '4.6'
 	s.requires_arc = true
 		
 	s.license      = {
