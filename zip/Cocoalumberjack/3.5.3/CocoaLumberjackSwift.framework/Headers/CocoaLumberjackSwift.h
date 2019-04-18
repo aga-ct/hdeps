@@ -18,4 +18,4 @@
 
 @import CocoaLumberjack;
 
-#import <CocoaLumberjackSwift/SwiftLogLevel.h>
+//#import <CocoaLumberjackSwift/SwiftLogLevel.h>

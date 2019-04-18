@@ -1,7 +1,7 @@
 #import <Foundation/NSDictionary.h>
 #import <Foundation/NSURLSession.h>
 #import <Foundation/NSURLRequest.h>
-#import <PromiseKit/AnyPromise.h>
+//#import <PromiseKit/AnyPromise.h>
 
 #define PMKURLErrorFailingURLResponseKey @"PMKURLErrorFailingURLResponseKey"
 #define PMKURLErrorFailingDataKey @"PMKURLErrorFailingDataKey"
@@ -74,6 +74,6 @@
 
  @see https://github.com/mxcl/OMGHTTPURLRQ
 */
-- (AnyPromise *)promiseDataTaskWithRequest:(NSURLRequest *)request NS_REFINED_FOR_SWIFT;
+//- (AnyPromise *)promiseDataTaskWithRequest:(NSURLRequest *)request NS_REFINED_FOR_SWIFT;
 
 @end

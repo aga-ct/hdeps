@@ -1,5 +1,5 @@
 #import <Foundation/NSNotification.h>
-#import <PromiseKit/AnyPromise.h>
+//#import <PromiseKit/AnyPromise.h>
 
 
 /**
@@ -39,6 +39,6 @@
    1. The NSNotification object.
    2. The NSNotification’s userInfo property.
 */
-+ (AnyPromise *)once:(NSString *)notificationName NS_REFINED_FOR_SWIFT;
+//+ (AnyPromise *)once:(NSString *)notificationName NS_REFINED_FOR_SWIFT;
 
 @end
