@@ -69,7 +69,7 @@ FOUNDATION_EXPORT const unsigned char CocoaLumberjackVersionString[];
 #ifndef DD_LEGACY_MACROS
     #define DD_LEGACY_MACROS 0
 #endif
-
+/*
 // Core
 #import <CocoaLumberjack/DDLog.h>
 
@@ -103,4 +103,4 @@ FOUNDATION_EXPORT const unsigned char CocoaLumberjackVersionString[];
 #import <CocoaLumberjack/DDLegacyMacros.h>
 
 #import <CocoaLumberjack/SwiftLogLevel.h>
-
+*/
